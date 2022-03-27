@@ -1,0 +1,9 @@
+{
+	"name": "Existing Dockerfile",
+	"context": "..",
+	"dockerFile": "../Dockerfile",
+	"settings": {},
+	"extensions": [
+		"dtsvet.vscode-wasm"
+	]
+}
