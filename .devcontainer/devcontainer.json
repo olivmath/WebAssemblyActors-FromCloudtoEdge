@@ -5,5 +5,6 @@
 	"settings": {},
 	"extensions": [
 		"dtsvet.vscode-wasm"
-	]
+	],
+	"postStartCommand": "rustup target add wasm32-unknown-unknown && rustup target add wasm32-wasi"
 }
