@@ -8,7 +8,7 @@ RUN git clone --recursive https://github.com/WebAssembly/wabt  \
     && cd wabt && mkdir build && cd build \
     && git submodule update --init \
     && cmake .. && cmake --build . \
-    && mv /wa* /usr/bin && rm -rf ../../wabt
+    && mv wa* /usr/bin && rm -rf ../../wabt
 
 RUN wget https://github.com/bytecodealliance/wasmtime/releases/download/v0.35.1/wasmtime-v0.35.1-aarch64-linux.tar.xz \
     && tar -xf wasmtime-v0.35.1-aarch64-linux.tar.xz \
