@@ -4,7 +4,10 @@
 	"dockerFile": "../Dockerfile",
 	"settings": {},
 	"extensions": [
-		"dtsvet.vscode-wasm"
+		"rust-lang.rust",
+		"dtsvet.vscode-wasm",
+		"matklad.rust-analyzer",
+		"dustypomerleau.rust-syntax"
 	],
-	"postStartCommand": "rustup target add wasm32-unknown-unknown && rustup target add wasm32-wasi"
+	"postStartCommand": "rustup target add wasm32-unknown-unknown wasm32-wasi && rustup component add rustfmt"
 }
