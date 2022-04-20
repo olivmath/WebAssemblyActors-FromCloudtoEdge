@@ -7,4 +7,9 @@
 - wasmtime [docs](https://docs.wasmtime.dev/)
 
 ## Chapter
-- [ ] Creating Your First WebAssembly Module
+- [x] Creating Your First WebAssembly Module from Scratch
+- [x] Creating Your First WebAssembly Module from Rust
+- [x] Using WebAssembly Host Runtimes
+- [ ] Advanced Guest and Host Communications
+- [ ] WebAssembly and the Actor Model
+- [ ] Advanced Actor and Capability Use Cases

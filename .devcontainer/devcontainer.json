@@ -6,6 +6,7 @@
 	"extensions": [
 		"rust-lang.rust",
 		"dtsvet.vscode-wasm",
+		"bungcip.better-toml",
 		"matklad.rust-analyzer",
 		"dustypomerleau.rust-syntax"
 	],

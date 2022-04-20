@@ -1,7 +1,11 @@
 FROM rust
 
-RUN apt update -y && apt install zsh wget cmake -y
+
+RUN apt update -y && apt install zsh wget cmake build-essential xz-utils clang-9 -y
 RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+RUN rustup component add rls \
+    rustup component add rust-src \
+    rustup component add rust-analysis
 
 # install webassembly toolkit
 RUN git clone --recursive https://github.com/WebAssembly/wabt  \
