@@ -13,4 +13,4 @@
 - [x] Using WebAssembly Host Runtimes
 - [x] Advanced Guest and Host Communications
 - [x] WebAssembly and the Actor Model
-- [ ] Advanced Actor and Capability Use Cases
+- [x] Advanced Actor and Capability Use Cases

@@ -1,0 +1,12 @@
+namespace "examples:ping"
+
+interface {
+  AddCartItem(sku: string, quantity: u32): InventoryResponse
+  QueryInventory(sku: string): InventoryResponse
+}
+
+type InventoryResponse {
+  sku: string
+  quantity: u32
+}
+
