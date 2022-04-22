@@ -10,6 +10,6 @@
 - [x] Creating Your First WebAssembly Module from Scratch
 - [x] Creating Your First WebAssembly Module from Rust
 - [x] Using WebAssembly Host Runtimes
-- [ ] Advanced Guest and Host Communications
+- [x] Advanced Guest and Host Communications
 - [ ] WebAssembly and the Actor Model
 - [ ] Advanced Actor and Capability Use Cases
