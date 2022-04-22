@@ -11,7 +11,6 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     let mut bytes = vec![];
     f.read_to_end(&mut bytes)?;
-
     let module = Module::parse(&env, bytes)?;
     let module = rt.load_module(module)?;
 
