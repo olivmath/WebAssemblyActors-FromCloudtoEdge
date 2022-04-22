@@ -5,11 +5,12 @@
 - webassembly [docs](https://webassembly.github.io/spec/core/index.html)
 - wabt [docs](https://github.com/WebAssembly/wabt)
 - wasmtime [docs](https://docs.wasmtime.dev/)
+- wasmCloud [docs](https://wasmcloud.dev)
 
 ## Chapter
 - [x] Creating Your First WebAssembly Module from Scratch
 - [x] Creating Your First WebAssembly Module from Rust
 - [x] Using WebAssembly Host Runtimes
 - [x] Advanced Guest and Host Communications
-- [ ] WebAssembly and the Actor Model
-- [ ] Advanced Actor and Capability Use Cases
+- [x] WebAssembly and the Actor Model
+- [x] Advanced Actor and Capability Use Cases

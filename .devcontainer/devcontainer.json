@@ -10,5 +10,5 @@
 		"matklad.rust-analyzer",
 		"dustypomerleau.rust-syntax"
 	],
-	"postStartCommand": "rustup target add wasm32-unknown-unknown wasm32-wasi && rustup component add rustfmt"
+	"postStartCommand": "rustup target add wasm32-unknown-unknown wasm32-wasi && rustup component add rustfmt && cargo install wash-cli"
 }
